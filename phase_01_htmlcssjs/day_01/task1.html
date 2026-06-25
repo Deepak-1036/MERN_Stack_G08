@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 20px;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            flex: 1 1 calc(33.333% - 16px);
+            min-width: 220px;
+            border: 1px solid #ccc;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card img {
+            width: 100%;
+            display: block;
+        }
+
+        .card-content {
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .tag {
+            font-size: 0.8rem;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+
+        p {
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 900px) {
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://static.vecteezy.com/system/resources/previews/001/521/043/non_2x/los-angeles-2020-red-jenuin-beverage-bottle-on-red-background-free-photo.jpeg" alt="Fashion item">
+            <div class="card-content">
+                <div class="tag">Fashion Tips</div>
+                <h2>What curling irons are the best ones</h2>
+                <p>Explore curling irons with the best heat settings and barrel types for smooth, long-lasting curls in every hair type.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://static.vecteezy.com/system/resources/previews/001/521/043/non_2x/los-angeles-2020-red-jenuin-beverage-bottle-on-red-background-free-photo.jpeg" alt="Beauty routine">
+            <div class="card-content">
+                <div class="tag">Fashion Tips</div>
+                <h2>What curling irons are the best ones</h2>
+                <p>Find top tools for effortless styling and discover how a quality curling iron can transform your daily hair routine.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://static.vecteezy.com/system/resources/previews/001/521/043/non_2x/los-angeles-2020-red-jenuin-beverage-bottle-on-red-background-free-photo.jpeg" alt="Hair styling">
+            <div class="card-content">
+                <div class="tag">Fashion Tips</div>
+                <h2>What curling irons are the best ones</h2>
+                <p>See which curling irons work best for volume, waves, and polished curls while keeping hair healthy and shiny.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <p></p>
+</body>
+</html>
